@@ -38,9 +38,12 @@
     }
     &__content {
         margin-top: 60px;
-        display: flex;
+        display: none;
         justify-content: space-between;
         flex-wrap: wrap;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 300px;
@@ -78,6 +81,7 @@
             font-weight: 500;
             line-height: 14px; 
             text-decoration-line: underline;
+            text-transform: uppercase;
             &:hover {
                 color: $main-color;
             }
