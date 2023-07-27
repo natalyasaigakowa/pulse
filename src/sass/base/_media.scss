@@ -26,6 +26,22 @@
             font-size: 18px;
         }
     }
+    .carousel {
+        .slick-slide img {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    .catalog {
+        &__content_active {
+            justify-content: space-evenly;
+        }
+        .catalog-item {
+            width: 295px;
+        }
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -183,4 +199,3 @@
         }
     }
 }
-
