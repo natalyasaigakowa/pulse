@@ -1,0 +1,38 @@
+.feed {
+    padding: 40px 0 80px 0;
+    background: #ffffff;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    &__item {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    &__img {
+        margin-top: 60px;
+    }
+    &__text {
+        margin: 60px 60px 0 60px;
+    }
+    &__subtitle {
+        color: #0D0D0D;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+    &__count {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+    }
+    &__descr {
+        margin-top: 10px;
+        color: #0D0D0D;
+        font-size: 16px;
+        font-weight: 30 0;
+        line-height: normal;
+    }
+}
