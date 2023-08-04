@@ -42,6 +42,7 @@
         }
     }
 
+
 }
 
 @media (max-width: 767px) {
@@ -192,10 +193,35 @@
             &_submit {
                 margin-top: 15px;
                 width: 140px;
-                height: 30px;
+                heights: 30px;
                 font-size: 9px;  
             }
 
         }
+    }
+    .catalog {
+        .title {
+            font-size: 23px;
+            line-height: 24px;  
+        }
+        &__tabs {
+            margin-top: 50px;
+        }
+    }
+    .feed {
+        .title {
+            font-size: 23px;
+            line-height: 24px;  
+        }
+        .feed__img {
+            margin-top: 40px;
+        }
+        .feed__text {
+            margin: 40px 40px 0 40px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    
     }
 }
