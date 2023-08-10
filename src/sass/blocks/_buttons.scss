@@ -8,6 +8,10 @@
     font-size: 12px;
     color: #FFFFFF;
     text-transform: uppercase;
+    &:hover {
+        box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.3);
+    }
+ 
     &_main {
         margin-top: 67px;
         width: 300px;
